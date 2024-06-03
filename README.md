@@ -4,34 +4,26 @@
 
 <p align="center" margin-top="25px" >
   <img alt="GitHub Top Language" src="https://img.shields.io/github/languages/top/ruivergani/dt-money">
-
   <img alt="GitHub Language Count" src="https://img.shields.io/github/languages/count/ruivergani/dt-money">
-
   <img alt="Repository Size" src="https://img.shields.io/github/repo-size/ruivergani/dt-money">
-
   <img alt="GitHub Last Commit" src="https://img.shields.io/github/last-commit/ruivergani/dt-money">
-
   <img alt="Repository issues" src="https://img.shields.io/github/issues/ruivergani/dt-money">
-
   <img alt="GitHub" src="https://img.shields.io/github/license/ruivergani/dt-money">
 </p>
 
-Powered by ReactJS, Styled-Components
 ___
 
 ## 💻 About
 
-This project's aim was to practice NextJS concepts, and also TailwindCSS, improving the performance and efficiency of web development projects.
+The project DT Money is a financial management application designed to help users track their expenses, manage budgets, and gain insights into their financial health. Leveraging the power of ReactJS and TypeScript, DT Money provides a seamless, efficient, and high-performance user experience.
 
 ___
 
 ## 🎨 Layout
 The page in desktop format is seen in the image below:
 \
-\
-![Screenshot 2024-05-09 at 16 20 18](https://github.com/ruivergani/lp-ntfboost/assets/70537459/0bc62556-16e5-46e7-b1b2-3bc065f48b41)
-![Screenshot 2024-05-08 at 14 39 46](https://github.com/ruivergani/lp-ntfboost/assets/70537459/e771d0e1-d9d9-4e78-84a2-5dc08a842556)
-
+![Capa](https://github.com/ruivergani/dt-money/assets/70537459/ece4aa28-faaf-475d-96a3-eb96d58d7e8f)
+<img width="1440" alt="Desktop  Home" src="https://github.com/ruivergani/dt-money/assets/70537459/f243eeb8-6e68-4edb-a7cf-f2005c8143b7">
 
 ___
 
@@ -39,10 +31,10 @@ ___
 
 The following technologies were employed in the creation of this project:
 
-- NextJS
-- TailwindCSS
-- Shadcn/UI
-- SwipperJS 
+- ReactJS
+- TypeScript
+- Connects to RESTful API
+- Styled-Components
 - Lists and keys in ReactJS
 - Properties
 - Componentization
@@ -55,7 +47,6 @@ The following technologies were employed in the creation of this project:
 - [Phosphor React](https://phosphoricons.com/)
 - [Visual Studio Code](https://code.visualstudio.com/) with [editorConfig][vceditconfig] and [esLint][vceslint]
 - [Figma](https://www.figma.com/file/QngNpEvtTk7XN61PObI3Ro/Ignite-Feed?type=design&node-id=26%3A12&mode=design&t=GL7dPs6g1RYCtsB6-1) detailed Figma file for the project;
-
 
 ___
 
@@ -73,7 +64,7 @@ ___
 Clone the project to the desired location on your computer.
 
 ```bash
-$ git clone git@github.com:ruivergani/lp-ntfboost.git
+$ git clone git@github.com:ruivergani/dt-money.git
 ```
 ___
 
@@ -81,7 +72,7 @@ ___
 ```bash
 
 # Navigate to the directory
-$ cd lp-ntfboost
+$ cd dt-money
 
 # Install the necessary dependencies
 $ yarn
