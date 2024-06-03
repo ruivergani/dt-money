@@ -54,10 +54,9 @@ ___
 ## Functionalities
 
 - Responsive Design
-- Use of NextJS
-- Use of Shadcn/UI
-- Use of Tailwind CSS
-  
+- Add Expense
+- Add Income
+- Use of REST API
 ___
 
 ## 🚀 How to use
