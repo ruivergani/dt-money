@@ -22,6 +22,7 @@ ___
 ## 🎨 Layout
 The page in desktop format is seen in the image below:
 \
+\
 ![Capa](https://github.com/ruivergani/dt-money/assets/70537459/ece4aa28-faaf-475d-96a3-eb96d58d7e8f)
 <img width="1440" alt="Desktop  Home" src="https://github.com/ruivergani/dt-money/assets/70537459/f243eeb8-6e68-4edb-a7cf-f2005c8143b7">
 
