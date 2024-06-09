@@ -88,7 +88,6 @@ export const TransactionTypeButton = styled(RadioGroup.Item)<TransactionTypeButt
     color: ${props => props.variant === 'income' ? props.theme['green-300'] : props.theme['red-300']};
     transition: all .2s;
   }
-
   // Data State Styles (checked or unchecked)
   &[data-state='checked']{
     color: ${props => props.theme['white']};
