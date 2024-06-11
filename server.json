@@ -15,6 +15,22 @@
       "category": "Food",
       "price": 50,
       "createdAt": "2024-06-09T16:19:54.812Z"
+    },
+    {
+      "id": 3,
+      "description": "Job",
+      "type": "income",
+      "category": "Food",
+      "price": 10000,
+      "createdAt": "2024-06-09T16:19:54.812Z"
+    },
+    {
+      "id": 4,
+      "description": "Laptop",
+      "type": "outcome",
+      "category": "Food",
+      "price": 500,
+      "createdAt": "2024-06-09T16:19:54.812Z"
     }
   ]
 }
