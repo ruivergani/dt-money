@@ -45,6 +45,10 @@ export const Content = styled(Dialog.Content)`
       font-weight: bold;
       cursor: pointer;
       transition: all .2s;
+      &:disabled{
+        opacity: 0.5;
+        cursor: not-allowed;
+      }
       &:hover{
         filter: brightness(0.8);
       }
