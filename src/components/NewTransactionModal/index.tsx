@@ -4,6 +4,8 @@ import { ArrowCircleDown, ArrowCircleUp, X } from 'phosphor-react';
 import * as zod from 'zod';
 import { zodResolver } from "@hookform/resolvers/zod";
 import { Controller, useForm } from 'react-hook-form';
+import { useContext } from 'react';
+import { TransactionsContext } from '../../contexts/TransactionsContext';
 
 // Schema
 const newTransactionFormSchema = zod.object({
@@ -17,10 +19,13 @@ type NewTransactionFormInputs = zod.infer<typeof newTransactionFormSchema>;
 
 export default function NewTransactionModal() {
 
+  const {createTransaction} = useContext(TransactionsContext)
+
   const {
-    control, // always use control when you don't have info from native components
+    control,
     register,
     handleSubmit,
+    reset,
     formState: {
       isSubmitting
     }
@@ -32,9 +37,17 @@ export default function NewTransactionModal() {
   })
 
   async function handleCreateNewTransaction(data: NewTransactionFormInputs) {
-    await new Promise(resolve => setTimeout(resolve, 2000)) // resolver a promessa apos 2 segundos com objetivo simular API
+    //await new Promise(resolve => setTimeout(resolve, 2000)) // resolver a promessa apos 2 segundos com objetivo simular API
+    const { description, price, category, type } = data;
 
-    console.log(data)
+    await createTransaction({
+      description,
+      price,
+      category,
+      type
+    });
+
+    reset();
   }
 
   return (
@@ -70,7 +83,6 @@ export default function NewTransactionModal() {
             control={control}
             name='type'
             render={({field}) => {
-              console.log(field)
               return (
                 <TransactionType onValueChange={field.onChange} value={field.value}>
                   <TransactionTypeButton variant='income' value='income'>
