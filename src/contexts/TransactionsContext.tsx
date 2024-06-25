@@ -62,7 +62,7 @@ export function TransactionsProvider({ children }: TransactionsProviderProps) {
 
   useEffect(() => { // useEffect can not be async
     fetchTransactions();
-  }, [])
+  }, [fetchTransactions])
 
   // Return Code
   return (
